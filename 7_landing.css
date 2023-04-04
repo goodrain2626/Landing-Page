@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+h1, h2, h3, h4, p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3rem !important;
+  }
+h3 {
+    font-size: 1.5rem;
+  }
+h4{
+  font-size: 1.3rem;
+}
+p{
+  font-size: 1.3rem ;
+}
+
+/* main box 시작 */
+.main-bg {
+    background-image: linear-gradient(to bottom, #499add, #4e61c0);
+    width: 100%;
+    padding: 50px;
+    height: 550px;
+    color: white;
+    position: relative;
+  }
+
+.main-text{
+    width: 40%;
+    padding-left: 60px;
+}
+
+.main-text p{
+  margin-bottom: 20px;
+}
+
+.btn-black{
+    padding: 15px;
+    width: 140px;
+    border-radius: 5px;
+    background-color: #444445;
+    border: 1px solid #444445;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn-black--wide{
+  width: 200px;
+}
+
+.main-imgbox img{
+    width: 400px;
+    display: block;
+    position: absolute;
+    top: 20.8%;
+    left: 70%;
+}
+/* main box 끝 */
+
+
+
+/* mid box 시작*/
+.mid-text{
+  text-align: center;
+  margin: 60px 0;
+}
+
+.mid-text h3,p{
+  margin-bottom: 20px;
+}
+
+/* mid box 끝 */
+
+
+/* item box 시작*/
+.item-bg{
+  background-color: #4e61c0;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.item-title p{
+  margin-bottom: 5px;
+}
+
+.item-container{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.item-list{
+  width: 20%;
+}
+
+.item-list i{
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  padding: 35px;
+  color: #4e61c0;
+  margin-bottom: 20px;
+}
+
+.item-list h3{
+  margin-bottom: 15px;
+}
+/* item box 끝 */
+
+/* pofol box 시작*/
+.pofol-bg{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.pofol-title{
+  margin-bottom: 40px;
+}
+.pofol-title h3{
+  color: rgb(255, 204, 0);
+}
+.pofol-title p{
+  margin-bottom: 5px;
+}
+
+.pofol-container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.pofol-text{
+  color: white;
+  text-align: left;
+  padding-left: 60px;
+  padding-top: 200px;
+}
+
+.pofol-text *{
+  margin-bottom: 10px;
+}
+
+.pofol-list1{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/portfolio-1.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 350px;
+  float: left;
+  position: relative;
+  transition: all 1s;
+}
+
+.pofol-list1:hover{
+  border: 25px solid white;
+}
+
+.pofol-list2{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/portfolio-2.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 350px;
+  float: right;
+  position: relative;
+  transition: all 1s;
+}
+
+.pofol-list2:hover{
+  border: 25px solid white;
+}
+
+.pofol-list3{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/portfolio-3.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 350px;
+  float: left;
+  position: relative;
+  transition: all 1s;
+}
+
+.pofol-list3:hover{
+  border: 25px solid white;
+}
+
+.pofol-list4{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(img/portfolio-4.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 350px;
+  float: right;
+  position: relative;
+  transition: all 1s;
+}
+
+.pofol-list4:hover{
+  border: 25px solid white;
+}
+
+/* pofol box 끝*/
+
+/* footer box 시작 */
+
+.footer-bg{
+  padding: 0 30px 30px 30px;
+  text-align: center;
+}
+
+.footer-container{
+  width: 600px;
+  margin: auto;
+}
+
+.footer-item{
+  display: inline-block;
+}
+
+.footer-item i{
+  width: 80px;
+  height: 80px;
+  float: left;
+  position: relative; 
+  background-color: #4e61c0;
+  color: white;
+  padding: 25px;
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.footer-item:nth-child(1) i{
+  padding: 25px;
+}
+
+.footer-item:nth-child(2) i{
+  padding: 24px 25px 24px 23px;
+}
+
+.footer-item:nth-child(3) i{
+  padding: 21px;
+}
+
+.footer-text{
+  margin-top: 20px;
+}
+
+
+
+/* footer box "display:flex" 일때 */
+
+/* .footer-container{
+  display: flex;
+  justify-content: center; 
+}
+
+.footer-item{
+  width: 15%;
+}
+
+.footer-item i{
+  width: 100px;
+  height: 100px;
+  background-color: #4e61c0;
+  color: white;
+  border-radius: 50px;
+  padding: 25px;
+} */
+
+/* footer box 끝 */
+
+
+
+
+
+/* 반응형 */
+@media screen and (max-width : 992px) {
+  
+  /* main box 반응형 시작 */
+  .main-bg{
+    height: 772px;
+  }
+
+  .main-imgbox{
+    margin: auto
+  }
+  
+  .main-imgbox img{
+    width: 415px;
+    left: 290px;
+    margin-top: 161px;
+    display: block;
+  }
+
+  .main-text{
+    width: 70%;
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 0;
+  }
+
+  .main-text p + .btn-black{
+    margin-top: 20px;
+  }
+  /* main box 반응형 끝 */
+
+  /* item box 반응형 시작 */
+  .item-container{
+    flex-wrap: wrap;
+  }
+  
+  .item-list{
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  /* item box 반응형 끝 */
+
+  /* pofol box 반응형 시작 */
+  .pofol-container{
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .pofol-list1{
+    width: 100%;
+    float: left;
+  }
+
+  .pofol-list2{
+    width: 100%;
+    float: left;
+  }
+
+  .pofol-list3{
+    width: 100%;
+    float: left;
+  }
+
+  .pofol-list4{
+    width: 100%;
+    float: left;
+  }
+
+  /* pofol box 반응형 끝 */  
+}
